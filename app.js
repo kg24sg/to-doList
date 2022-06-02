@@ -122,8 +122,6 @@ List.findOne({name: customListName}, function(err, foundList){
 
 });
 
-replace the line above with the following:
-
 let port = process.env.PORT;
 if (port == null || port == "") {
   port = 3000;
