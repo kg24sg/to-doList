@@ -1,7 +1,7 @@
 {
   "name": "todolist-v1",
   "version": "1.0.0",
-  "description": "",
+  "description": "To DoList with database (Mongosee)",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +12,16 @@
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
-    "mongoose": "^6.3.4"
-  }
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kg24sg/to-doList.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kg24sg/to-doList/issues"
+  },
+  "homepage": "https://github.com/kg24sg/to-doList#readme"
 }
